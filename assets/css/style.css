@@ -225,7 +225,7 @@ body.active { overflow: hidden; }
   color: var(--black);
 }
 
-.btn-secondary:is(:hover, :focus) { --raw-seinna: hsl(24, 74%, 64%); }
+.btn-secondary:is(:hover, :focus) { --raw-seinna: hsl(157, 100%, 79%); }
 
 .section-subtitle {
   position: relative;
@@ -700,7 +700,7 @@ main { overflow-x: hidden; }
 
 .project-card:is(:hover, :focus)::after {
   background: hsla(0, 0%, 100%, 0.1);
-  backdrop-filter: blur(0.5px);
+  backdrop-filter: blur(.5px);
 }
 
 .project-card .card-content {
